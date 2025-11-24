@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Basgiath War College
+        </title>
+        <style>
+            nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: rgba(0, 0, 0, 0.534);
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            nav li a {
+                float: left;
+                display: block;
+                color: rgba(255, 255, 255, 0.486);
+                text-align: center;
+                padding: 18px 15px;
+                text-decoration: none;
+                font-size: 30px;
+                font-family: courtier;
+            }
+            nav li a:hover:not(.Aktiv) {
+                background-color: rgb(78, 73, 73);
+                text-decoration: underline;
+                color: white;
+            }
+            .Aktiv {
+                background-color: black;
+                color: #ffffff;
+            }
+
+            body {margin: 0;}
+            .Innhold {
+                padding: 0;
+                padding-top: 80px;
+                width: 100%;
+                height: 5000px;
+                background-color: rgba(0, 0, 0, 0.658);
+            }
+
+            .Drop {float: right;}
+            .Drop_btn {
+                padding: 15px 15px;
+                font-size: larger;
+                border: none;
+                background-color: rgba(0, 0, 0, 0);
+            }
+            .Drop_Cont {
+                display: none;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.534);
+                min-width: 25px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .Drop_Cont  a{
+                color: white;
+                padding: 15px 15px;
+                text-decoration: none;
+                display: block;
+            }
+            .Drop:hover .Drop_Cont {display: block;}
+
+            .forside {width: 100%;
+                display: block;
+                text-align: center;
+            }
+            .bilder p {
+                font-size: 30px;
+            }
+            
+            .hvaEr {
+                width: 100%;
+                background-color: rgb(32, 30, 30);
+                overflow: auto;
+                padding: 20px 0;
+            }
+            .hva {padding: 0 20px;}
+            .Venstre {
+                width: 28%;
+                float: left;
+            }
+            .Hogre {
+                width: 72%;
+                float: left;
+                color: white;
+            }
+            .txt {padding-left: 20px;text-align: center;}
+
+            .Hvorfor {
+                width: 100%;
+                overflow: auto;
+                padding: 20px 0;
+            }
+            .hfInnhold {padding: 0 20px;}
+            .hVenstre {width: 50%;float: left;}
+            .hHogre {width: 50%;float: left;}
+            ul li a {color: rgb(6, 29, 36);}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <li>
+                <a href="index.html" style="padding: 3px 3px;;margin: 0;font-size: 0;"><img src="https://ih1.redbubble.net/image.5446721943.2230/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" alt="Basgiath War College logo" height="65px"></a> <!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fposter%2FBasgiath-war-college-by-iPrintastyCo%2F158412230.LVTDI&psig=AOvVaw1bCMBw85PnoZ60dGrcQEdA&ust=1764081306669000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD7mZCBi5EDFQAAAAAdAAAAABAv-->
+                <a href="index.html">Hjemmeside</a>
+                <div class="Drop">
+                    <button class="Drop_btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png" alt="" width="49px"></button>
+                    <div class="Drop_Cont">
+                        <a href="en.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="" width="49px"></a>
+                    </div>
+                </div>
+            </li>
+        </nav>
+        <div class="Innhold">
+            <div class="forside">
+                <div class="bilder">
+                    <img src="https://preview.redd.it/basgiath-war-college-in-unreal-engine-v0-t2yxeei6c4nc1.jpg?width=640&crop=smart&auto=webp&s=1aef25545c1e886d206361ac346e1052e41d9a0d" alt="" width="70%"> <!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffourthwing%2Fcomments%2F1b9p0li%2Fbasgiath_war_college_in_unreal_engine%2F&psig=AOvVaw1bCMBw85PnoZ60dGrcQEdA&ust=1764081306669000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD7mZCBi5EDFQAAAAAdAAAAABA7-->
+                    <p>Velkommen til Basgiath Krigsakademi</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="hvaEr">
+                <div class="hva">
+                    <div class="Venstre">
+                        <img src="https://static.wikia.nocookie.net/the-empyrean-rebecca-yarros/images/8/88/Basgiathbyleafyandlearning.png/revision/latest?cb=20240312151757" alt="School map" width="100%"> <!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fthe-empyrean-series.fandom.com%2Fwiki%2FBasgiath_War_College&psig=AOvVaw1bCMBw85PnoZ60dGrcQEdA&ust=1764081306669000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCJD7mZCBi5EDFQAAAAAdAAAAABCAAQ-->
+                    </div>
+                    <div class="Hogre">
+                        <div class="txt">
+                            <h1>Hva er Basgiath War College</h1>
+                            <p>
+                                Vi er ein skule som holder til i Morraine, Navarre<br>
+                                Vi trener opp folk for at dei skal få ein moglegheit til å bli ein dragerytter, eller bli med i dei andre kvadrantene vi har å tilby<br>
+                                Det er desverre ikkje alle som klarer å bestå prøven for at ein skal komme seg inn i rytterkvadranten*<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Hvorfor">
+                <div class="hfInnhold">
+                    <div class="hVenstre">
+                        <img src="https://enchanted-extras.com/cdn/shop/files/FourthWingPrintAru.png?v=1712193135&width=1946" width="100%"><!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fenchanted-extras.com%2Fproducts%2F5x7-inch-fourth-wing-art-print-xaden-riorson-violet-sorrengail-rhiannon-matthias-liam-mairi-dragon-rider-bookish-gift-book-characters%3Fsrsltid%3DAfmBOopWf0oOOKkcA-iOuE296_-FcdyMDLTlzHg2qzENPRx1nEbsbsW0&psig=AOvVaw3aFXdULWw8RAFLBh4hry6Y&ust=1764092456383000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjCidaqi5EDFQAAAAAdAAAAABAE-->
+                    </div>
+                    <div class="hHogre">
+                        <div style="padding-left: 20px;">
+                            <h1>Kvifor oss?</h1>
+                            <p>
+                                Vi er ein skule med mange forskjellige kvadranter,<br>
+                                Dei ulike kvadrantene vi tilbyr er:
+                                <ul style="list-style-type: disc;">
+                                    <li>Skrivekvadranten    -   <a href="Skrivekvadranten.html">Les meir</a></li>
+                                    <li>Healerkvadranten    -   <a href="Healerkvadranten.html">Les meir</a></li>
+                                    <li>Infantrikvadranten  -   <a href="Infentrikvadranten.html">Les meir</a></li>
+                                    <li>Rytterkvadranten    -   <a href="Rytterkvadranten.html">Les meir</a></li>
+                                </ul>
+                                I tillegg så får elevene som har gått her ein høgare statur i samfunnet over dei som velger å bli med på skulen <br>til griff-riderene, uff vi får til og med frysninger av å nevne dei så kort på nettsida vår
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><!--Pass på at denne delen er under alt anna!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <p style="font-size: smaller;color: rgb(61, 61, 61);">*Opptaksprøven kan resultere i ein tidelig død</p>
+            </div>
+        </div>
+    </body>
+</html>
