@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Rider Sqadrant
+        </title>
+        <style>
+            body {margin: 0;background-color: rgba(0,0,0,0.658);}
+            .Innhold {
+                padding: 0;
+                padding-top: 80px;
+                width: 100%;
+                height: auto;
+            }
+
+            nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: rgba(0, 0, 0, 0.534);
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            nav li a {
+                float: left;
+                display: block;
+                color: rgba(255, 255, 255, 0.486);
+                text-align: center;
+                padding: 18px 15px;
+                text-decoration: none;
+                font-size: 30px;
+                font-family: courtier;
+            }
+            nav li a:hover:not(.Aktiv) {
+                background-color: rgb(78, 73, 73);
+                text-decoration: underline;
+                color: white;
+            }
+            .Aktiv {
+                background-color: black;
+                color: #ffffff;
+            }
+
+            .Drop {float: right;}
+            .Drop_btn {
+                padding: 15px 15px;
+                font-size: larger;
+                border: none;
+                background-color: rgba(0, 0, 0, 0);
+            }
+            .Drop_Cont {
+                display: none;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.534);
+                min-width: 25px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .Drop_Cont  a{
+                color: white;
+                padding: 15px 15px;
+                text-decoration: none;
+                display: block;
+            }
+            .Drop:hover .Drop_Cont {display: block;}
+
+            .forside {width: 100%;
+                display: block;
+                text-align: center;
+            }
+            .bilder p {
+                font-size: 30px;
+            }
+
+            .Hvorfor {width: 100%;overflow: auto;padding: 20px 0;}
+            .Venstre {float: left;width: 30%;}
+            .Hogre {float: left; width: 70%;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <li>
+                <a href="index.html" style="padding: 3px 3px;margin: 0;font-size: 0;"><img src="https://ih1.redbubble.net/image.5446721943.2230/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" alt="Basgiath War College logo" height="65px"></a>
+                <a href="index.html">Hjemmeside</a>
+                <div class="Drop">
+                    <button class="Drop_btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png" alt="" width="49px"></button>
+                    <div class="Drop_Cont">
+                        <a href="Rider.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="" width="49px"></a>
+                    </div>
+                </div>
+            </li>
+        </nav>
+        <div class="Innhold">
+            <div class="forside">
+                <div class="bilder">
+                    <img src="https://enchanted-extras.com/cdn/shop/files/FourthWingPrintAru.png?v=1712193135&width=1946" width="55%">
+                    <p>Velkommen til Rytterkvadranten</p>
+                </div>
+            </div>
+            <div class="Hvorfor">
+                <div style="padding: 0 20px;">
+                    <div class="Venstre">
+                        <img src="https://ih1.redbubble.net/image.5322080136.9659/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="Hogre">
+                        <div style="margin-left: 20px;">
+                            <h1>Hvorfor bli med i rytterkvadranten</h1>
+                            <p>
+                                Vi er ein kvadrant for dei som har lyst å ha ein aktiv kvardag <br>
+                                Ved å bli med i rytterkvadranten, så vil du ein eineståande mogligheit til å få din eiga drage<br>
+                                Når ein har fullført den tre års lange utdanninga, så vil du få lov til å dra ut på oppdrag<br>
+                                Det er ein liten risiko ein tar ved å bli med i rytterkvadranten, og i tilegg vil du få varierte arbeidsdager<br>
+                                Vi treng alltids nye ryttere, så det er bare å søke seg inn, og du er garantert til å kunne prøve ut ein dag på skulen*
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: xx-small;color: black;padding-left: 10px;">*Vi garanterer bare at du er i live før du starter ut din, "prøvedag"</p>
+        </div>
+    </body>
+</html>
