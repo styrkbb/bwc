@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Rider Sqadrant
+        </title>
+        <style>
+            .no {display: inline;}
+            .en {display: none;}
+            body {margin: 0;background-color: rgba(0,0,0,0.658);}
+            .Innhold {
+                padding: 0;
+                padding-top: 80px;
+                width: 100%;
+                height: auto;
+            }
+
+            nav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: rgba(0, 0, 0, 0.534);
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            nav li a {
+                float: left;
+                display: block;
+                color: rgba(255, 255, 255, 0.486);
+                text-align: center;
+                padding: 18px 15px;
+                text-decoration: none;
+                font-size: 30px;
+                font-family: courtier;
+            }
+            nav li a:hover:not(.Aktiv) {
+                background-color: rgb(78, 73, 73);
+                text-decoration: underline;
+                color: white;
+            }
+            .Aktiv {
+                background-color: black;
+                color: #ffffff;
+            }
+
+            .Drop {float: right;}
+            .Drop_btn {
+                padding: 15px 15px;
+                font-size: larger;
+                border: none;
+                background-color: rgba(0, 0, 0, 0);
+            }
+            .Drop_btn_txt {
+                padding: 18px 15px;
+                font-size: 30px;
+                border: none;
+                background-color: rgba(0, 0, 0, 0);
+                color: rgba(255, 255, 255, 0.486);
+            }
+            .Drop_Cont {
+                display: none;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.534);
+                min-width: 25px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .Drop_Cont  a{
+                color: white;
+                padding: 15px 15px;
+                text-decoration: none;
+                float: none;
+                display: block;
+            }
+            .Drop:hover .Drop_Cont {display: block;}
+
+            .forside {width: 100%;
+                display: block;
+                text-align: center;
+            }
+            .bilder p {
+                font-size: 30px;
+            }
+
+            .Hvorfor {width: 100%;overflow: auto;padding: 20px 0;}
+            .Venstre {float: left;width: 30%;}
+            .Hogre {float: left; width: 70%;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <li>
+                <div class="no">
+                    <a href="index.html" style="padding: 3px 3px;margin: 0;font-size: 0;"><img src="https://ih1.redbubble.net/image.5446721943.2230/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" alt="Basgiath War College logo" height="65px"></a> <!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fposter%2FBasgiath-war-college-by-iPrintastyCo%2F158412230.LVTDI&psig=AOvVaw1bCMBw85PnoZ60dGrcQEdA&ust=1764081306669000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD7mZCBi5EDFQAAAAAdAAAAABAv-->
+                    <a href="index.html">Hjemmeside</a>
+                </div>
+                <div class="en">
+                    <a href="index_en.html" style="padding: 3px 3px;margin: 0;font-size: 0;"><img src="https://ih1.redbubble.net/image.5446721943.2230/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" alt="Basgiath War College logo" height="65px"></a> <!--Link til bilde: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fposter%2FBasgiath-war-college-by-iPrintastyCo%2F158412230.LVTDI&psig=AOvVaw1bCMBw85PnoZ60dGrcQEdA&ust=1764081306669000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD7mZCBi5EDFQAAAAAdAAAAABAv-->
+                    <a href="index_en.html">Home</a>
+                </div>
+                <div class="no">
+                    <div class="Drop" style="float: left;">
+                        <button class="Drop_btn_txt">Kvadrantene</button>
+                        <div class="Drop_Cont">
+                            <a href="Rytterkvadranten.html">Rytterkvadranten</a>
+                            <a href="Skrivekvadranten.html">Skrivekvadranten</a>
+                            <a href="Healerkvadranten.html">Healerkvadranten</a>
+                            <a href="Infantrikvadranten.html">Infantrikvadranten</a>
+                        </div>
+                    </div>
+                    <div class="Drop">
+                        <button class="Drop_btn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png" alt="" width="49px"></button>
+                        <div class="Drop_Cont">
+                            <a href="Writer.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="" width="49px"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="en">
+                    <div class="Drop" style="float: left;">
+                        <button class="Drop_btn_txt">Quadrants</button>
+                        <div class="Drop_Cont">
+                            <a href="Rider.html">Riders Quadrant</a>
+                            <a href="Writer.html">Scribe Quadrant</a>
+                            <a href="Healer.html">Healer Quadrant</a>
+                            <a href="Infantry.html">Infantry Quadrant</a>
+                        </div>
+                    </div>
+                    <div class="Drop">
+                        <button class="Drop_btn" style="padding: 18px 15px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="" width="49px"></button>
+                        <div class="Drop_Cont">
+                            <a href="Skrivekvadranten.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png" alt="" width="49px"></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </nav>
+        <div class="Innhold">
+            <div class="forside">
+                <div class="bilder">
+                    <img src="https://enchanted-extras.com/cdn/shop/files/FourthWingPrintAru.png?v=1712193135&width=1946" width="55%">
+                    <di class="no">
+                        <p>Velkommen til Skrivekvadranten</p>
+                    </div>
+                    <div class="en">
+                        <p>Welcome to the Scribe Quadrant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Hvorfor">
+                <div style="padding: 0 20px;">
+                    <div class="Venstre">
+                        <img src="https://ih1.redbubble.net/image.5322080136.9659/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="Hogre">
+                        <div style="margin-left: 20px;">
+                            <div class="no">
+                                <h1>Hvorfor bli med i skrivekvadranten</h1>
+                                <p>
+                                    Vi er ein kvadrant for dei som er interessert i å lese og å skrive <br>
+                                    For å bli med i skrivekvadranten så må du består ein skrive eksamen, som hovedsakelig <br>
+                                    går ut på at ein skal skrive om historien til navarre, og dens forhold til Poromiel <br>
+                                    Du bør også være interessert i historie, for dere vil studere kva so har skjedd, og skal<br>
+                                    skrive ned kva som skjer i nåtiden.<br>
+                                    <span class="quotes1">
+                                        <blockquote>
+                                        "Det er plikten til skrivere å ikkje bare<br>
+                                        studere og mestre fortiden, men også <br>
+                                        å notere ned nåtiden."<br>
+                                        - Professor Markham</blockquote>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="en">
+                                <h1>Why join the scribe quadrant?</h1>
+                                <p>
+                                    We are a quadrant for people that likes to read and to write <br>
+                                    To joint this quadrant you have to write an exam about <br>
+                                    the history of navarre, and their relations to Poromiel<br>
+                                    You should also be interested in history, because you are going to study<br>
+                                    the past and whats happening in present.<br>
+                                    <span class="quotes1">
+                                        <blockquote>
+                                            "It is the duty of the scribes not only to<br>
+                                            study and master the past but to relay<br>
+                                            and record the present."<br>
+                                            - Professor Markham
+                                        </blockquote>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
